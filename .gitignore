@@ -1,0 +1,9 @@
+# dependencies of PJ
+*/node_modules
+
+# production
+*/build
+
+# misc adn ENVs
+*/*.env
+

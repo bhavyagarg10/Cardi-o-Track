@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.animatedHeading {
+    width: fit-content;
+    background-clip: text;
+    background-image: linear-gradient(
+      45deg,
+      #09deff,
+      #22d3ee,
+      #3983f5,
+      #0066ff
+    );
+    background-size: 120%;
+    animation: customAnimation 2s ease-in-out 0s infinite alternate;
+  }
+  @keyframes customAnimation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
